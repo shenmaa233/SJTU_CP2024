@@ -1,0 +1,33 @@
+# Project: Ising model 3.4
+# Makefile created by Dev-C++ 5.16
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+RES      = Ising_model_3.4_private.res
+OBJ      = "Ising\ model\ 3.4.o" $(RES)
+LINKOBJ  = "Ising model 3.4.o" $(RES)
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -g3
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"
+BIN      = "Ising model 3.4.exe"
+CXXFLAGS = $(CXXINCS) -Wextra -g3 -pipe
+CFLAGS   = $(INCS) -Wextra -g3 -pipe
+RM       = del /q
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+"Ising\ model\ 3.4.o": Ising\ model\ 3.4.cpp
+	$(CPP) -c "Ising model 3.4.cpp" -o "Ising model 3.4.o" $(CXXFLAGS)
+
+Ising_model_3.4_private.res: Ising_model_3.4_private.rc 
+	$(WINDRES) -i Ising_model_3.4_private.rc --input-format=rc -o Ising_model_3.4_private.res -O coff 
+
