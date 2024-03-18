@@ -1,0 +1,22 @@
+Start testing: Mar 18 14:43 CST
+----------------------------------------------------------
+1/1 Testing: Tests
+1/1 Test: Tests
+Command: "/home/shenmaa/CP2024_code/3.11/build/Tests_catch2"
+Directory: /home/shenmaa/CP2024_code/3.11/build
+"Tests" start time: Mar 18 14:43 CST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 2199547850
+===============================================================================
+All tests passed (7 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Tests" end time: Mar 18 14:43 CST
+"Tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 18 14:43 CST
