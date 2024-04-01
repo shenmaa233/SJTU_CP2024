@@ -1,0 +1,13 @@
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/main.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/Tests_IsingSpin.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/test.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/edit_cache.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/rebuild_cache.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/CMakeFiles/test.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/CMakeFiles/edit_cache.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/CMakeFiles/rebuild_cache.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/src/CMakeFiles/test.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/src/CMakeFiles/edit_cache.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-build/src/CMakeFiles/rebuild_cache.dir

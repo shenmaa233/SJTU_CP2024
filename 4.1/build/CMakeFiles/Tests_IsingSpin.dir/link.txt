@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/Tests_IsingSpin.dir/Test_IsingSpin.cpp.o CMakeFiles/Tests_IsingSpin.dir/IsingSpin.cpp.o CMakeFiles/Tests_IsingSpin.dir/IsingSpinOnLattice.cpp.o CMakeFiles/Tests_IsingSpin.dir/IsingSystem.cpp.o CMakeFiles/Tests_IsingSpin.dir/IsingSystem_Square.cpp.o -o Tests_IsingSpin  _deps/catch2-build/src/libCatch2Maind.a _deps/catch2-build/src/libCatch2d.a 

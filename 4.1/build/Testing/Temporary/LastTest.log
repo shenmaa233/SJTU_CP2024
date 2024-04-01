@@ -1,0 +1,21 @@
+Start testing: Apr 01 20:42 CST
+----------------------------------------------------------
+1/1 Testing: Tests
+1/1 Test: Tests
+Command: "/home/shenmaa/codes/SJTU_CP2024/4.1/build/Tests_IsingSpin"
+Directory: /home/shenmaa/codes/SJTU_CP2024/4.1/build
+"Tests" start time: Apr 01 20:42 CST
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (52 assertions in 4 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Tests" end time: Apr 01 20:42 CST
+"Tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 01 20:42 CST
