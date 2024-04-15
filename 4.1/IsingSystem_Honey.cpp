@@ -1,12 +1,8 @@
 #include "IsingSystem_Honey.hpp"
 #include <iostream>
+#include <vector>
 #include "IsingSystem_Square.hpp"
 
-/**
- * @brief Constructs an instance of the IsingSystem_Honey class.
- * 
- * @param system_size_spec The system size specification as a vector of integers.
- */
 IsingSystem_Honey::IsingSystem_Honey(const std::vector<int>& system_size_spec)
     : IsingSystem(system_size_spec[0] * system_size_spec[1]), system_size(system_size_spec) {
     setup_NN();
@@ -18,6 +14,10 @@ IsingSystem_Honey::IsingSystem_Honey(const std::vector<int>& system_size_spec, c
         setup_NN();
         // 可以在这里添加使用beta进行的初始化代码
     }
+
+IsingSystem_Honey::~IsingSystem_Honey() {
+
+}
 
 double IsingSystem_Honey::_exact_energy_Z(std::size_t beta_idx) const {
     return _exact_energy_Z_results[beta_idx];
@@ -48,10 +48,26 @@ double IsingSystem_Honey::_exact_magz_q_sq(std::size_t beta_idx) const {
 void IsingSystem_Honey::setup_NN() {
     for (int site_idx = 0; site_idx < n_spins; ++site_idx) {
         std::vector<int> r = lattice_coordinate(site_idx);
-        spin[site_idx].set_NN(0, site_index(shift_pos_x(r)));
-        spin[site_idx].set_NN(1, site_index(shift_pos_y(r)));
-        spin[site_idx].set_NN(2, site_index(shift_neg_x(r)));
-        spin[site_idx].set_NN(3, site_index(shift_neg_y(r)));
+        if( r[0] % 2 == 0 && r[1] % 2 == 0) {
+            spin[site_idx].set_NN(0, site_index(shift_pos_x(r)));
+            spin[site_idx].set_NN(1, site_index(shift_pos_y(r)));
+            spin[site_idx].set_NN(2, site_index(shift_neg_x(r)));
+        }
+        else if( r[0] % 2 == 0 && r[1] % 2 == 1) {
+            spin[site_idx].set_NN(0, site_index(shift_pos_x(r)));
+            spin[site_idx].set_NN(1, site_index(shift_neg_y(r)));
+            spin[site_idx].set_NN(2, site_index(shift_neg_x(r)));
+        }
+        else if( r[0] % 2 == 1 && r[1] % 2 == 0) {
+            spin[site_idx].set_NN(0, site_index(shift_neg_x(r)));
+            spin[site_idx].set_NN(2, site_index(shift_pos_x(r)));
+            spin[site_idx].set_NN(3, site_index(shift_neg_y(r)));
+        }
+        else if( r[0] % 2 == 1 && r[1] % 2 == 1) {
+            spin[site_idx].set_NN(0, site_index(shift_neg_x(r)));
+            spin[site_idx].set_NN(2, site_index(shift_pos_x(r)));
+            spin[site_idx].set_NN(3, site_index(shift_pos_y(r)));
+        }
     }
 }
 

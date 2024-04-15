@@ -26,6 +26,11 @@
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSystem_Honey.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Honey.cpp",
+  "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Honey.cpp"
+},
+{
+  "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
   "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/plottest.dir/matplotlibtest.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/matplotlibtest.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/matplotlibtest.cpp"
 },

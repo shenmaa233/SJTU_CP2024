@@ -15,7 +15,7 @@ find_package(PythonLibs REQUIRED)
 include_directories(/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include)
 
 # Project executable
-add_executable(main Ising_model.cpp IsingSpin.cpp IsingSpinOnLattice.cpp IsingSystem.cpp IsingSystem_Square.cpp)
+add_executable(main Ising_model.cpp IsingSpin.cpp IsingSpinOnLattice.cpp IsingSystem.cpp IsingSystem_Square.cpp IsingSystem_Honey.cpp)
 target_compile_options(main PRIVATE -Wall -Wextra)
 
 # 包含Python头文件路径

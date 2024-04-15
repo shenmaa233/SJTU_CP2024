@@ -1,8 +1,10 @@
 #include "IsingSystem_Square.hpp"
+#include "IsingSystem_Honey.hpp"
 #include "matplotlibcpp.h"
 #include <vector>
 #include <cmath>
 #include <string>
+
 
 namespace plt = matplotlibcpp;
 
@@ -30,12 +32,13 @@ int main() {
     std::vector<std::string> colors = {"red", "green", "blue", "black"}; // 颜色，为不同尺寸使用不同颜色
     std::vector<std::string> labels; // 标签
 
-    for (int n = 2; n <= 4; ++n) {
-        std::vector<int> system_size = {n, n};
-        IsingSystem_Square system(system_size, beta_values);
+    for (int n = 1; n <= 3; ++n) {
+        std::vector<int> system_size = {2*n, 2*n};
+        //IsingSystem_Square system(system_size, beta_values);
+        IsingSystem_Honey system(system_size, beta_values);
 
         system.exact(); // 执行所有beta值的精确计算
-        system.print_exact();
+        //system.print_exact();
         std::vector<double> magnetizationSquared;
         std::vector<double> heatCapacity;
         //std::vector<double> energyperspin;
@@ -57,15 +60,15 @@ int main() {
         heatCapacityAllSizes.push_back(heatCapacity);
         labels.push_back("n = " + std::to_string(n));
         // 假设是在n=2时的循环体内
-        // std::cout << "Results for n = 2:" << std::endl;
+        // std::cout << "Results for n = 1:" << std::endl;
         // for (size_t i = 0; i < beta_values.size(); ++i) {
         //     std::cout << "Beta: " << beta_values[i] << ", M^2: " << magnetizationSquared[i]
         //             << ", Heat Capacity: " << heatCapacity[i] << std::endl;
         // }
     }
-    std::cout << "Temperature vector size: " << temperature.size() << std::endl;
-    std::cout << "MagnetizationSquared vector size for n=2: " << magnetizationSquaredAllSizes[0].size() << std::endl;
-    std::cout << "HeatCapacity vector size for n=2: " << heatCapacityAllSizes[0].size() << std::endl;
+    // std::cout << "Temperature vector size: " << temperature.size() << std::endl;
+    // std::cout << "MagnetizationSquared vector size for n=2: " << magnetizationSquaredAllSizes[0].size() << std::endl;
+    // std::cout << "HeatCapacity vector size for n=2: " << heatCapacityAllSizes[0].size() << std::endl;
     
     // 绘制<M^2>关于T的图
     plt::figure_size(1200, 600); // 设置图像大小

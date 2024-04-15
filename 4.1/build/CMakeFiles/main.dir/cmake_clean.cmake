@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/IsingSpinOnLattice.cpp.o.d"
   "CMakeFiles/main.dir/IsingSystem.cpp.o"
   "CMakeFiles/main.dir/IsingSystem.cpp.o.d"
+  "CMakeFiles/main.dir/IsingSystem_Honey.cpp.o"
+  "CMakeFiles/main.dir/IsingSystem_Honey.cpp.o.d"
   "CMakeFiles/main.dir/IsingSystem_Square.cpp.o"
   "CMakeFiles/main.dir/IsingSystem_Square.cpp.o.d"
   "CMakeFiles/main.dir/Ising_model.cpp.o"

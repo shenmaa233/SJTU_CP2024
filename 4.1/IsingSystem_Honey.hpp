@@ -4,10 +4,10 @@
 #include <vector>
 #include "IsingSystem.hpp"
 
-class IsingSystem_Honey : IsingSystem {
+class IsingSystem_Honey : public IsingSystem {
 private:
-    std::vector<double> beta;
     std::vector<int> system_size;
+    std::vector<double> beta;
     std::vector<double> _exact_energy_Z_results; // Declare the missing variable
     std::vector<double> _exact_energy_q_results; // Declare the missing variable
     std::vector<double> _exact_energy_q_sq_results; // Declare the missing variable
@@ -17,7 +17,7 @@ private:
 public:
     IsingSystem_Honey(const std::vector<int>& system_size_spec);
     IsingSystem_Honey(const std::vector<int>& system_size_spec, const std::vector<double>& beta_spec);
-    ~IsingSystem_Honey();
+    virtual ~IsingSystem_Honey();
 
     double _exact_energy_Z(std::size_t beta_idx) const;
     double _exact_energy_q(std::size_t beta_idx) const;
