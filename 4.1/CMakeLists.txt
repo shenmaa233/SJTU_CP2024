@@ -10,9 +10,27 @@ FetchContent_Declare(catch2
 )
 FetchContent_MakeAvailable(catch2)
 
+#调python包
+find_package(PythonLibs REQUIRED)
+include_directories(/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include)
+
 # Project executable
 add_executable(main Ising_model.cpp IsingSpin.cpp IsingSpinOnLattice.cpp IsingSystem.cpp IsingSystem_Square.cpp)
 target_compile_options(main PRIVATE -Wall -Wextra)
+
+# 包含Python头文件路径
+include_directories(${PYTHON_INCLUDE_DIRS})
+target_include_directories(main PRIVATE ${PYTHON_INCLUDE_DIRS})
+
+# 链接Python库
+target_link_libraries(main ${PYTHON_LIBRARIES})
+
+#plottest测试
+add_executable(plottest matplotlibtest.cpp)
+target_compile_options(plottest PRIVATE -Wall -Wextra)
+include_directories(${PYTHON_INCLUDE_DIRS})
+target_include_directories(plottest PRIVATE ${PYTHON_INCLUDE_DIRS})
+target_link_libraries(plottest ${PYTHON_LIBRARIES})
 
 # Test executable
 enable_testing()

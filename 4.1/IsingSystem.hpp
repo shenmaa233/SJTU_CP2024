@@ -35,6 +35,7 @@ public:
     void set_state(const std::vector<bool> state);
     double eval_Mz() const;
     double eval_energy_1D() const;
+
 };
 
 #endif // ISINGSYSTEM_HPP
