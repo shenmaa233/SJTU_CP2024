@@ -1,4 +1,5 @@
 /home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/main.dir
+/home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/plottest.dir
 /home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/Tests_IsingSpin.dir
 /home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/test.dir
 /home/shenmaa/codes/SJTU_CP2024/4.1/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/plottest.dir/matplotlibtest.cpp.o -o plottest  /usr/lib/x86_64-linux-gnu/libpython3.10.so 

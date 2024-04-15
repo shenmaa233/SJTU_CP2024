@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/main.dir/Ising_model.cpp.o CMakeFiles/main.dir/IsingSpin.cpp.o CMakeFiles/main.dir/IsingSpinOnLattice.cpp.o CMakeFiles/main.dir/IsingSystem.cpp.o CMakeFiles/main.dir/IsingSystem_Square.cpp.o -o main 
+/usr/bin/g++ -g CMakeFiles/main.dir/Ising_model.cpp.o CMakeFiles/main.dir/IsingSpin.cpp.o CMakeFiles/main.dir/IsingSpinOnLattice.cpp.o CMakeFiles/main.dir/IsingSystem.cpp.o CMakeFiles/main.dir/IsingSystem_Square.cpp.o -o main  /usr/lib/x86_64-linux-gnu/libpython3.10.so 

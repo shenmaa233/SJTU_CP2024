@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes
+CXX_INCLUDES = -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes
 
 CXX_FLAGS = -g -Wall -Wextra -std=gnu++14
 

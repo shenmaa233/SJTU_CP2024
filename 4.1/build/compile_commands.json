@@ -1,52 +1,57 @@
 [
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++   -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/Ising_model.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/Ising_model.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/Ising_model.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/Ising_model.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/Ising_model.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++   -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSpin.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpin.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSpin.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpin.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpin.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++   -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSpinOnLattice.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpinOnLattice.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSpinOnLattice.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpinOnLattice.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpinOnLattice.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++   -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSystem.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSystem.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++   -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSystem_Square.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Square.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/main.dir/IsingSystem_Square.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Square.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Square.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++  -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/Test_IsingSpin.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/Test_IsingSpin.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/plottest.dir/matplotlibtest.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/matplotlibtest.cpp",
+  "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/matplotlibtest.cpp"
+},
+{
+  "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/Test_IsingSpin.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/Test_IsingSpin.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/Test_IsingSpin.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++  -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSpin.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpin.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSpin.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpin.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpin.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++  -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSpinOnLattice.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpinOnLattice.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSpinOnLattice.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpinOnLattice.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSpinOnLattice.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++  -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSystem.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSystem.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem.cpp"
 },
 {
   "directory": "/home/shenmaa/codes/SJTU_CP2024/4.1/build",
-  "command": "/usr/bin/g++  -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSystem_Square.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Square.cpp",
+  "command": "/usr/bin/g++  -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10 -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/_deps/catch2-src/src/catch2/.. -I/home/shenmaa/codes/SJTU_CP2024/4.1/build/generated-includes -g -Wall -Wextra -std=gnu++14 -o CMakeFiles/Tests_IsingSpin.dir/IsingSystem_Square.cpp.o -c /home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Square.cpp",
   "file": "/home/shenmaa/codes/SJTU_CP2024/4.1/IsingSystem_Square.cpp"
 },
 {

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/shenmaa/.local/lib/python3.10/site-packages/numpy/core/include -I/usr/include/python3.10
 
 CXX_FLAGS = -g -Wall -Wextra -std=gnu++14
 

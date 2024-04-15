@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "/home/shenmaa/codes/SJTU_CP2024/4.1/**"
+                "/home/shenmaa/codes/SJTU_CP2024/4.1/**",
+                "${workspaceFolder}/build/_deps/catch2-src/extras"
             ],
             "defines": [
                 "_DEBUG",

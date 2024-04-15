@@ -140,6 +140,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named plottest
+
+# Build rule for target.
+plottest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plottest
+.PHONY : plottest
+
+# fast build rule for target.
+plottest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plottest.dir/build.make CMakeFiles/plottest.dir/build
+.PHONY : plottest/fast
+
+#=============================================================================
 # Target rules for targets named Tests_IsingSpin
 
 # Build rule for target.
@@ -334,6 +347,30 @@ Test_IsingSpin.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tests_IsingSpin.dir/build.make CMakeFiles/Tests_IsingSpin.dir/Test_IsingSpin.cpp.s
 .PHONY : Test_IsingSpin.cpp.s
 
+matplotlibtest.o: matplotlibtest.cpp.o
+.PHONY : matplotlibtest.o
+
+# target to build an object file
+matplotlibtest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plottest.dir/build.make CMakeFiles/plottest.dir/matplotlibtest.cpp.o
+.PHONY : matplotlibtest.cpp.o
+
+matplotlibtest.i: matplotlibtest.cpp.i
+.PHONY : matplotlibtest.i
+
+# target to preprocess a source file
+matplotlibtest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plottest.dir/build.make CMakeFiles/plottest.dir/matplotlibtest.cpp.i
+.PHONY : matplotlibtest.cpp.i
+
+matplotlibtest.s: matplotlibtest.cpp.s
+.PHONY : matplotlibtest.s
+
+# target to generate assembly for a file
+matplotlibtest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plottest.dir/build.make CMakeFiles/plottest.dir/matplotlibtest.cpp.s
+.PHONY : matplotlibtest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -347,6 +384,7 @@ help:
 	@echo "... Catch2WithMain"
 	@echo "... Tests_IsingSpin"
 	@echo "... main"
+	@echo "... plottest"
 	@echo "... IsingSpin.o"
 	@echo "... IsingSpin.i"
 	@echo "... IsingSpin.s"
@@ -365,6 +403,9 @@ help:
 	@echo "... Test_IsingSpin.o"
 	@echo "... Test_IsingSpin.i"
 	@echo "... Test_IsingSpin.s"
+	@echo "... matplotlibtest.o"
+	@echo "... matplotlibtest.i"
+	@echo "... matplotlibtest.s"
 .PHONY : help
 
 
