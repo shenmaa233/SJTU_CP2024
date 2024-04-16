@@ -60,13 +60,13 @@ void IsingSystem_Honey::setup_NN() {
         }
         else if( r[0] % 2 == 1 && r[1] % 2 == 0) {
             spin[site_idx].set_NN(0, site_index(shift_neg_x(r)));
-            spin[site_idx].set_NN(2, site_index(shift_pos_x(r)));
-            spin[site_idx].set_NN(3, site_index(shift_neg_y(r)));
+            spin[site_idx].set_NN(1, site_index(shift_pos_x(r)));
+            spin[site_idx].set_NN(2, site_index(shift_neg_y(r)));
         }
         else if( r[0] % 2 == 1 && r[1] % 2 == 1) {
             spin[site_idx].set_NN(0, site_index(shift_neg_x(r)));
-            spin[site_idx].set_NN(2, site_index(shift_pos_x(r)));
-            spin[site_idx].set_NN(3, site_index(shift_pos_y(r)));
+            spin[site_idx].set_NN(1, site_index(shift_pos_x(r)));
+            spin[site_idx].set_NN(2, site_index(shift_pos_y(r)));
         }
     }
 }

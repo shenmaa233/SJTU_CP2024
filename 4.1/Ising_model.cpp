@@ -32,11 +32,21 @@ int main() {
     std::vector<std::string> colors = {"red", "green", "blue", "black"}; // 颜色，为不同尺寸使用不同颜色
     std::vector<std::string> labels; // 标签
 
-    for (int n = 1; n <= 3; ++n) {
+    for (int n = 1; n <= 2; ++n) {
         std::vector<int> system_size = {2*n, 2*n};
         //IsingSystem_Square system(system_size, beta_values);
         IsingSystem_Honey system(system_size, beta_values);
-
+        // for(int i = 0; i < system._n_spins(); ++i) {
+        //     std::vector<int> r = system.lattice_coordinate(i);
+        //     std::cout << "Site " << i << " at (" << r[0] << ", " << r[1] << ")" << std::endl;
+        //     // for(int j = 0; j < system.NN().size(); ++j) {
+        //     //     int nn_idx = system._NN(j);
+        //     //     if (nn_idx >= 0) {
+        //     //         std::vector<int> nn_r = system.lattice_coordinate(nn_idx);
+        //     //         std::cout << "  Nearest neighbor " << j << " at (" << nn_r[0] << ", " << nn_r[1] << ")" << std::endl;
+        //     //     }
+        //     // }
+        // }
         system.exact(); // 执行所有beta值的精确计算
         //system.print_exact();
         std::vector<double> magnetizationSquared;
